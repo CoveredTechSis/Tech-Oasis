@@ -1,7 +1,7 @@
-import Header from "./header/header";
-import HeroOverlay from "./heroOverlay/heroOverlay";
-import HeroPage from "./heropage/HeroPage";
-import BestSeller from "./products/bestSeller/BestSeller";
+import Header from "../components/header/header"
+import HeroOverlay from "../components/heroOverlay/heroOverlay";
+import HeroPage from "../components/heropage/heropage";
+import BestSeller from "../components/bestSeller/bestSeller";
 // import ProductList from "./products/page";
 
 export default function Home() {

@@ -1,4 +1,3 @@
-
 export default function HeroOverlay() {
     return(
      < div className="flex  justify-center w-full absolute">

@@ -31,7 +31,7 @@ const Header = () => {
           </div>
 
           {/* Navigation for larger screens */}
-          <nav className="hidden md:flex space-x-10 text-charcoal">
+          <nav className="hidden md:flex space-x-10 text-black">
             <Link href="/home">Home</Link>
             <Link href="/about">About</Link>
             <Link href="/products">Product</Link>
@@ -63,11 +63,11 @@ const Header = () => {
             {/* Mobile menu */}
             {isOpen && (
               <div className="absolute right-0 w-screen text-center mt-4 space-y-2 text-charcoal bg-slate-200">
-                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-charcoal p-3">Home</p>
-                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-charcoal p-3">About</p>
-                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-charcoal p-3">Product</p>
-                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-charcoal p-3">Shop</p>
-                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-charcoal p-3">Contact</p>
+                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">Home</p>
+                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">About</p>
+                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">Product</p>
+                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">Shop</p>
+                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">Contact</p>
               </div>
             )}
           </div>
