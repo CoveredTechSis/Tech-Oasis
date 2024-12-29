@@ -3,6 +3,16 @@ import React, { useState, useEffect } from 'react'
 import { IoIosSearch } from "react-icons/io";
 import Hamburger from 'hamburger-react'
 import Link from 'next/link';
+import { CgProfile } from "react-icons/cg";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -32,16 +42,34 @@ const Header = () => {
 
           {/* Navigation for larger screens */}
           <nav className="hidden md:flex space-x-10 text-black">
-            <Link href="/home">Home</Link>
             <Link href="/about">About</Link>
             <Link href="/products">Product</Link>
-            <Link href="/shop">Shop</Link>
+            <Link href="/home">Workspaces</Link>
             <Link href="/contact">Contacts</Link>
+            
 
-            <div className='flex space-x-2'>
+            <DropdownMenu>
+  <DropdownMenuTrigger>
+    <CgProfile size={'24'}/>
+  </DropdownMenuTrigger>
+  <DropdownMenuContent>
+    <DropdownMenuLabel>My Account</DropdownMenuLabel>
+    <DropdownMenuSeparator />
+    <DropdownMenuItem>
+    <Link href="/about">Login</Link>
+    </DropdownMenuItem>
+    <DropdownMenuItem>
+    <Link href="/about">Sign Up</Link>
+
+    </DropdownMenuItem>
+  </DropdownMenuContent>
+</DropdownMenu>
+
+
+            {/* <div className='flex space-x-2'>
               <Link href="/login">Login</Link>
               <Link href="/signup">Signup</Link>
-            </div>
+            </div> */}
           </nav>
 
           {/* Search bar */}
@@ -63,11 +91,12 @@ const Header = () => {
             {/* Mobile menu */}
             {isOpen && (
               <div className="absolute right-0 w-screen text-center mt-4 space-y-2 text-charcoal bg-slate-200">
-                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">Home</p>
                 <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">About</p>
                 <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">Product</p>
-                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">Shop</p>
+                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">Workspaces</p>
                 <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">Contact</p>
+                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">My Profile</p>
+
               </div>
             )}
           </div>
