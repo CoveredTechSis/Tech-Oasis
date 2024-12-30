@@ -9,7 +9,7 @@ const HeroPage = () => {
 
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
       <h1 className='lg:text-6xl font-bold md:text-4xl sm:text-4xl  leading-tight mb-4 dark:text-white'>Say No To Boring WorkSpace</h1>
-      <p className='text-lg text-gray-300 mb-8 sm:text-sm dark:text-gray-400'> We Have The Perfect Setup for your Work Space Aesthetics</p>
+      <p className='text-lg text-gray-300 mb-8 sm:text-sm dark:text-gray-400'> We Have The Perfect Setup for your Work Space Aesthetics. Look out for our amazing products.</p>
      
       </div>
     </div>
