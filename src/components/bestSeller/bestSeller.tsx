@@ -1,7 +1,7 @@
 export default function BestSeller() {
-    const images= {
-      image1: 'fg'
-    }
+    // const images= {
+    //   image1: 'fg'
+    // }
 
     return(
     < div className=" h-100  bg-slate-100">
