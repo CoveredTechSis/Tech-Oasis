@@ -2,6 +2,7 @@ import Header from "../components/header/header"
 import HeroOverlay from "../components/heroOverlay/heroOverlay";
 import HeroPage from "../components/heropage/heropage";
 import BestSeller from "../components/bestSeller/bestSeller";
+import FeaturedProduct from "@/components/featuredProducts/featuredProducts";
 // import ProductList from "./products/page";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroPage/>
       <HeroOverlay/>
       <BestSeller/>
+      <FeaturedProduct/>
 
        </div>
   
