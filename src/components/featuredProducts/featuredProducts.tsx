@@ -35,8 +35,7 @@ export default function FeaturedProduct() {
       price: "$50",
     }
   ]
-    // const ProductGrid: React.FC = () => {
-
+    
     return(
     < div className=" h-100  p-4 bg-slate-100">
          <h2 className="text-4xl text-center pt-40 font-extrabold text-gray-900 dark:text-white">Our Best Seller</h2>
@@ -57,14 +56,7 @@ export default function FeaturedProduct() {
           ))}
 
          </div>
-         {/* <div className="h-80 p-10 flex gap-2 justify-center align-middle"> 
-            <div className="w-1/4 h-34 shadow-md rounded-md bg-slate-200"></div>
-            <div className="w-1/4 h-34 shadow-md rounded-md bg-slate-200"></div>
-            <div className="w-1/4 h-34 shadow-md rounded-md bg-slate-200"></div>
-            <div className="w-1/4 h-34 shadow-md rounded-md bg-slate-200"></div>
-         </div>
-
-         </div> */}
+        
      </div>
     
 
