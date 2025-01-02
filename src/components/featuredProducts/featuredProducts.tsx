@@ -38,7 +38,7 @@ export default function FeaturedProduct() {
     
     return(
     < div className=" h-100  p-4 bg-slate-100">
-         <h2 className="text-4xl text-center pt-40 font-extrabold text-gray-900 dark:text-white">Our Best Seller</h2>
+         <h2 className="text-4xl text-center pt-40 font-extrabold text-gray-900 dark:text-white">Featured Products</h2>
          {/* <div className="pt-10"> */}
          <div className="grid lg:grid sm:grid-cols-4 gap-4 pt-10">
           {products.map((product) => (
