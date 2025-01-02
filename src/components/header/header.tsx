@@ -44,7 +44,7 @@ const Header = () => {
           <nav className="hidden md:flex space-x-10 text-black">
             <Link href="/about">About</Link>
             <Link href="/products">Product</Link>
-            <Link href="/home">Workspaces</Link>
+            <Link href="/profile">Workspaces</Link>
             <Link href="/contact">Contacts</Link>
             
 
@@ -91,11 +91,42 @@ const Header = () => {
             {/* Mobile menu */}
             {isOpen && (
               <div className="absolute right-0 w-screen text-center mt-4 space-y-2 text-charcoal bg-slate-200">
+                 <Link href="/about ">
                 <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">About</p>
+                </Link>
+                 <Link href="/products">
                 <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">Product</p>
+                </Link>
+                 <Link href="/profile">
                 <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">Workspaces</p>
+                 </Link>
+                 <Link href="/contact">
                 <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">Contact</p>
-                <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">My Profile</p>
+
+                 </Link>
+                
+                {/* <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">My Profile */}
+
+                  
+            <DropdownMenu>
+  <DropdownMenuTrigger>
+  <p className="text-lg hover:bg-slate-100 rounded-md hover:text-black p-3">My Profile</p>
+
+    {/* <CgProfile size={'24'}/> */}
+  </DropdownMenuTrigger>
+  <DropdownMenuContent>
+    <DropdownMenuLabel>My Account</DropdownMenuLabel>
+    <DropdownMenuSeparator />
+    <DropdownMenuItem>
+    <Link href="/about">Login</Link>
+    </DropdownMenuItem>
+    <DropdownMenuItem>
+    <Link href="/about">Sign Up</Link>
+
+    </DropdownMenuItem>
+  </DropdownMenuContent>
+</DropdownMenu>
+                {/* </p> */}
 
               </div>
             )}
