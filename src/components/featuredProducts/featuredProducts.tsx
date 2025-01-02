@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function BestSeller() {
+export default function FeaturedProduct() {
   type Product = {
     id: number;
     name: string;
@@ -72,5 +72,3 @@ export default function BestSeller() {
     )
     
   }
-
-// }
