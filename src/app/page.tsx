@@ -15,7 +15,6 @@ export default function Home() {
       <BestSeller/>
       <FeaturedProduct/>
       <WorkspaceComponent/>
-
        </div>
   
   )
