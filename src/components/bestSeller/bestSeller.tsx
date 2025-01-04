@@ -41,7 +41,7 @@ export default function BestSeller() {
     < div className=" h-100  p-4 bg-slate-100">
          <h2 className="text-4xl text-center pt-40 font-extrabold text-gray-900 dark:text-white">Our Best Seller</h2>
          {/* <div className="pt-10"> */}
-         <div className="grid lg:grid sm:grid-cols-4 gap-4 pt-10">
+         <div className="grid lg:grid md:w-1/2  sm:grid-cols-4 gap-4 pt-10">
           {products.map((product) => (
             <div 
             key={product.id} className=" w-full h-34 shadow-md rounded-md bg-slate-200 border p-4 flex flex-col items-center">
