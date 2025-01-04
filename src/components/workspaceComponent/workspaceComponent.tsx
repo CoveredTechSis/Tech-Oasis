@@ -6,7 +6,7 @@ export default function WorkspaceComponent () {
         <section className="bg-pink-600 px-6 py-12 md:py-24 mx-4 md:mx-20 flex flex-col md:flex-row items-center text-white rounded-lg">
         <div className="relative w-full md:w-1/2 h-80">
           <img
-            src="/image/battlestation-desk-removebg.png"
+            src="/image/desk-setup-aesthetic.jpg"
             alt="Workspace Accessories"
             sizes="(max-width: 768px) 100vw, (min-width: 768px) 50vw, 33vw"
             className="object-contain rounded-lg"
