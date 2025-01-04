@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 export default function WorkspaceComponent () {
     return(
-        <div className=" bg-pink-700 ">
-        <section className="bg-[#D87D4A] px-6 py-12 md:py-24 mx-4 md:mx-20 flex flex-col md:flex-row items-center text-white rounded-lg">
+        <div className=" bg-slate-300">
+        <section className="bg-pink-600 px-6 py-12 md:py-24 mx-4 md:mx-20 flex flex-col md:flex-row items-center text-white rounded-lg">
         <div className="relative w-full md:w-1/2 h-80">
           <img
             src="/image/battlestation-desk-removebg.png"
@@ -13,7 +13,7 @@ export default function WorkspaceComponent () {
           />
         </div>
         <div className="md:w-1/2 text-center md:text-left mt-6 md:mt-0">
-          <h1 className="text-4xl font-bold uppercase">Transform your desk space with beautiful tech accessories</h1>
+          <h1 className="text-4xl font-bold uppercase">Transform your desk designs with beautiful tech accessories</h1>
           <p className="mt-4 text-lg">
           Get all fancy aesthetics to make your space more inspirational for work.
            
