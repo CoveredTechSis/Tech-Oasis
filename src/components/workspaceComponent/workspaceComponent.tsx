@@ -9,7 +9,7 @@ export default function WorkspaceComponent () {
             src="/image/desk-setup-aesthetic.jpg"
             alt="Workspace Accessories"
             sizes="(max-width: 768px) 100vw, (min-width: 768px) 50vw, 33vw"
-            className="object-contain rounded-lg"
+            className="object-contain rounded-lg "
           />
         </div>
         <div className="md:w-1/2 text-center md:text-left mt-6 md:mt-0">
