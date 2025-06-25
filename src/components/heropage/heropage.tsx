@@ -14,7 +14,7 @@ const HeroPage = () => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-4">
+      <div className="flex flex-col justify-center items-center h-full text-center px-4">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
           Say No To Boring WorkSpace
         </h1>
