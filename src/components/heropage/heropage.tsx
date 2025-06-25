@@ -13,14 +13,16 @@ const HeroPage = () => {
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       </div>
 
-      {/* Hero Content (Mobile) */}
-      <div className="relative z-50 flex flex-col justify-center items-center h-full text-center px-4">
-        <h1 className="text-3xl font-bold leading-tight mb-4">
-          Say No To Boring WorkSpace
-        </h1>
-        <p className="text-sm text-gray-300 dark:text-gray-400">
-          We Have The Perfect Setup for your Work Space Aesthetics. Look out for our amazing products.
-        </p>
+      {/* Centered Content */}
+      <div className="relative z-10 flex items-center justify-center min-h-screen px-4 text-center">
+        <div>
+          <h1 className="text-3xl font-bold leading-tight mb-4">
+            Say No To Boring WorkSpace
+          </h1>
+          <p className="text-sm text-gray-300 dark:text-gray-400">
+            We Have The Perfect Setup for your Work Space Aesthetics. Look out for our amazing products.
+          </p>
+        </div>
       </div>
     </div>
   );
