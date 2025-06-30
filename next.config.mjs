@@ -1,12 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-// next.config.js
-
-module.exports = {
+const nextConfig = {
     images: {
-      domains: ['i.ytimg.com'], // ✅ Add your image host domain here
-    },
-  };
-  
-
+        domains: ['i.ytimg.com'], // ✅ Add your image host domain here
+      },
+};
 export default nextConfig;
